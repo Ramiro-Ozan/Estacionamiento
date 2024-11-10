@@ -4,8 +4,14 @@ namespace Estacionamiento.Models
 {
     public class Cliente : Usuario
     {
-        public List<Ticket> Tickets { get; set; }
+        public Ticket? Ticket { get; set; }
 
-        public List<Version>? Vehiculos { get; set; }
+        public Version? Vehiculo { get; set; }
+        public int EstacionamientoId { get; set; }
+
+        public Estacionamiento? Estacionamiento { get; set; }
+
+
+
     }
 }

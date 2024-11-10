@@ -13,6 +13,10 @@ namespace Estacionamiento.Models
 
         public decimal? Tarifa { get; set; }
 
+        public int EstacionamientoId { get; set; }
+
+        public Estacionamiento? Estacionamiento { get; set; }
+
 
     }
 }

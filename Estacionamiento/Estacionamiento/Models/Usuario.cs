@@ -21,7 +21,6 @@ namespace Estacionamiento.Models
 
         //public DateTime? UltimoAcceso { get; set; }
 
-
-
+ 
     }
 }
